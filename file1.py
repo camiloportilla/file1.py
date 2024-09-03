@@ -5,7 +5,7 @@ sensores = [
 ]
 print(f"Sensores: {sensores}")
 capacitores = [
-    ["capacitor1", 15 microfaradios],
-    ["capacitor2", 100 microfaradios]
+    ["capacitor1", "15uf" ],
+    ["capacitor2", "100uf" ]
 ]
 print(f"capacitores: {capacitores}")
