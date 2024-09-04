@@ -11,3 +11,10 @@ for i, valor in enumerate(cinta):
     if valor == "caja":
         posicionesx.append(i)
 print("Las cajas están en las posiciones:", posicionesx)
+
+cinta1 = ["vacio", "vacio", "vacio", "caja", "vacio", "vacio", "caja", "vacio", "vacio", "vacio", "vacio", "vacio", "vacio", "caja", "vacio", "vacio", "caja", "vacio", "vacio", "vacio"]
+
+# Verificamos si "caja" está en la lista
+existe_caja = "caja" in cinta1
+
+print(existe_caja)
